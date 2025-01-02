@@ -28,7 +28,7 @@
 // socket_address = "226.0.0.1"; // if set to a host name or IP address, UDP packets containing metadata will be sent to this address. May be a multicast address. "socket-port" must be non-zero and "e>
 // socket_port = 5555; // if socket_address is set, the port to send UDP packets to
 // socket_msglength = 65000; // the maximum packet size for any UDP metadata. This will be clipped to be between 500 or 65000. The default is 500.
-};``
+};`
 
 这一步就是打开pipe接口
 
